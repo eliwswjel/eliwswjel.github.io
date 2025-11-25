@@ -1,0 +1,55 @@
+<html>
+ <head>
+ <title>Title of the document</title>
+ <style>
+ display: table;
+ #defaultBlock {
+
+
+ }
+ div {
+ float: left;
+ height: 575px;
+ width: 300px;
+ padding: 10px;
+ }
+ #block1 {
+ background-color: red;
+ }
+ #block2 {
+ background-color:purple;
+ width: 250px;
+ }
+ #block3 {
+ background-color:blue;
+ width: 250px;
+ }
+ h2 {
+ text-align: center;
+ }
+ </style>
+ </head>
+ <body>
+ <main id="defaultBlock">
+ <h2>Main Page Title</h2>
+ <div id="block1">
+ <h2>Title 1</h2>
+ <iframe 
+src="https://calendar.google.com/calendar/embed?src=c_classroom626d7d68%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="300" height="300" frameborder="0" scrolling="no">
+</iframe>
+ </div>
+ <div id="block2">
+ <h2>Title 2</h2>
+<a class="weatherwidget-io" href="https://forecast7.com/en/43d65n79d38/toronto/" data-label_1="TORONTO" data-label_2="WEATHER" data-theme="original" >TORONTO WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+ </div>
+ <div id="block3">
+ <h2>Title 3</h2>
+<script src="https://time.now/static/js/widget-loader.js" async defer></script>
+<a href="https://time.now/" class="time-now-widget" data-widget-type="digital" data-timezone="America/Toronto" data-style="modern" data-width="300" data-title="Time in Toronto" data-bgColor="#ffffff" data-textColor="#000000" data-show-seconds="true" data-show-date="true" data-format-12-hour="false">Time in Toronto</a>
+ </div>
+ </main>
+ </body>
+</html>
